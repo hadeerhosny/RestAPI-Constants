@@ -1,0 +1,25 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                    Test Method: 'authentication.constants_Test.TC_01_Validate_Get_Contants'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @14-08-2023 00:55:47.0619 am
+[ReportManager] Expected "true", and actual "true" @14-08-2023 00:55:47.0645 am
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "true" and Actual "true". Comparison Type "EQUALS". Validation Type "POSITIVE". @14-08-2023 00:55:47.0651 am
+[ReportManager] Assertion Passed: Evaluating that the response is successful (Status code is between 200 and 299). @14-08-2023 00:55:47.0652 am
+[ReportManager] Request details:  "GET | Target Status Code: 0 | Service URL: https://provider.test.carefer.co/api/customer/v1/constant | Content Type: */* | Response Time: 1451ms". @14-08-2023 00:55:49.0581 am
+[ReportManager] Successfully created attachment 'API Request - Specifications' @14-08-2023 00:55:49.0583 am
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @14-08-2023 00:55:49.0855 am
+[ReportManager] Get response jsonvalue "data.brands[3].name_en". @14-08-2023 00:55:50.0257 am
+[ReportManager] Expected "Isuzu", and actual "Isuzu" @14-08-2023 00:55:50.0258 am
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "Isuzu" and Actual "Isuzu". Comparison Type "EQUALS". Validation Type "POSITIVE". @14-08-2023 00:55:50.0259 am
+[ReportManager] Assertion Passed: The API response extracted value from the JSON path "data.brands[3].name_en" is equal to "Isuzu". @14-08-2023 00:55:50.0260 am
+[ReportManager] Get response jsonvalue "data.engine_types[1].name_en". @14-08-2023 00:55:50.0335 am
+[ReportManager] Expected "Diesel Engines", and actual "Diesel Engines" @14-08-2023 00:55:50.0335 am
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "Diesel Engines" and Actual "Diesel Engines". Comparison Type "EQUALS". Validation Type "POSITIVE". @14-08-2023 00:55:50.0335 am
+[ReportManager] Assertion Passed: The API response extracted value from the JSON path "data.engine_types[1].name_en" is equal to "Diesel Engines". @14-08-2023 00:55:50.0336 am
+[ReportManager] Get response jsonvalue "data.minimum_vehicle_make_year". @14-08-2023 00:55:50.0393 am
+[ReportManager] Expected "2001", and actual "2001" @14-08-2023 00:55:50.0393 am
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "2001" and Actual "2001". Comparison Type "EQUALS". Validation Type "POSITIVE". @14-08-2023 00:55:50.0393 am
+[ReportManager] Assertion Passed: The API response extracted value from the JSON path "data.minimum_vehicle_make_year" is equal to "2001". @14-08-2023 00:55:50.0394 am
